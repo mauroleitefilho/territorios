@@ -9,6 +9,14 @@ let marcadores = [];
 
 function mostrarMapa() {
 
+// Limpa o mapa anterior
+    marcadores = [];
+
+    if (mapa) {
+        mapa.remove();
+        mapa = null;
+    }
+
     document.getElementById("conteudo").innerHTML = `
 
         <button onclick="carregarListaTerritorios()">
@@ -46,6 +54,8 @@ function mostrarMapa() {
 }
 
 function criarMapa(){
+
+    camadaTerritorio = null;
 
     mapa = L.map("map");
 
