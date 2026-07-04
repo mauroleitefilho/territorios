@@ -7,4 +7,13 @@
         "latitude":-21.77922,
         "longitude":-48.18477
     }
+    
+    ,{
+        "id":2,
+        "codigo":"T002",
+        "nome":"Jardim Santa Angelina",
+        "arquivo":"T002.json",
+        "latitude":-21.7705,
+        "longitude":-48.18804
+    }
 ]
