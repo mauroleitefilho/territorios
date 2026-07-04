@@ -93,7 +93,7 @@ async function carregarGeoJSON(){
 
                     weight:2,
 
-                    fillColor:"#4c82af",
+                    fillColor:"rgb(33, 163, 77)",
 
                     fillOpacity:0.6
 
@@ -199,8 +199,8 @@ function atualizarVisual(layer,marcador){
 
         layer.setStyle({
 
-            color:"#529ad4",
-            fillColor:"#3210ac"
+            color:"#5dd452",
+            fillColor:"rgb(33, 163, 77)"
 
         });
 
