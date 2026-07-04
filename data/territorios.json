@@ -1,0 +1,10 @@
+[
+    {
+        "id":1,
+        "codigo":"T001",
+        "nome":"Jardim das Oliveiras",
+        "arquivo":"T001.json",
+        "latitude":-21.77922,
+        "longitude":-48.18477
+    }
+]
